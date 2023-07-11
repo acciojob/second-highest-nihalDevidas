@@ -18,13 +18,14 @@
 				}
 			}
 			if(arr.length === 0 || arr.length === 1){
-				return undefined;
+				return "-Infinity";
 			}
-			if( allValSame){
+			if(allValSame){
 				return arr[0];
 			}
+
 			
-              let secL = -1;  let largest = 0;
+             let secL = -1;  let largest = 0;
 			
 			for(let i=1; i<arr.length; i++)
 			{
